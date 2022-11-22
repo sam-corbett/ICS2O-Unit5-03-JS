@@ -15,10 +15,14 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * This function displays an alert.
- */
+
+// This function helps some dumb thing out
 function myButtonClicked() {
-  document.getElementById("movie-desiding-button").innerHTML =
-    "<p>Hello, World!</p>"
+ //input
+ var valueOfAge = document.getElementById("ageValue").checked
+
+ //process
+if (valueOfAge >= 17) {
+   document.getElementById("movie-desiding-button").innerHTML = "You can watch R-Rated Movies"
 }
+
