@@ -27,13 +27,13 @@ function myButtonClicked() {
   //process
   if (age >= 17) {
     document.getElementById("movie-desiding-button").innerHTML =
-      "<p>You can watch up to R-Rated Movies</p>"
+      "<p>You can watch up to R-Rated Movies.</p>"
   } else if (age >= 13) {
     document.getElementById("movie-desiding-button").innerHTML =
-      "<p>You can only watch up to PG-13 Rated Movies</p>"
+      "<p>You can only watch up to PG-13 Rated Movies.</p>"
   } else if (age >= 5) {
     document.getElementById("movie-desiding-button").innerHTML =
-      "<p>You can only watch up to G & PG Rated Movies</p>"
+      "<p>You can only watch up to G & PG Rated Movies.</p>"
   } else {
     document.getElementById("movie-desiding-button").innerHTML =
       "<p>You are either too young to watch any movie, or not born yet.</p>"
